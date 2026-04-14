@@ -57,9 +57,9 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(247, 244, 246, 0.95);
+  background: rgba(244, 247, 244, 0.95);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(236, 223, 229, 0.9);
+  border-bottom: 1px solid rgba(223, 236, 229, 0.9);
 }
 
 .nav-inner {
@@ -124,14 +124,14 @@ nav {
   border: none;
   cursor: pointer;
   font-weight: 600;
-  box-shadow: 0 6px 16px rgba(192, 139, 160, 0.35);
+  box-shadow: 0 6px 16px rgba(139, 192, 160, 0.35);
   transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
 }
 
 .nav-cta:hover {
   transform: translateY(-1px);
   background: var(--primary-dark);
-  box-shadow: 0 9px 20px rgba(145, 90, 114, 0.45);
+  box-shadow: 0 9px 20px rgba(90, 145, 114, 0.45);
 }
 
 @media (max-width: 720px) {
@@ -257,14 +257,14 @@ nav {
   text-transform: uppercase;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 10px 24px rgba(192, 139, 160, 0.4);
+  box-shadow: 0 10px 24px rgba(139, 192, 160, 0.4);
   transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
 }
 
 .btn-primary:hover {
   transform: translateY(-1px);
   background: var(--primary-dark);
-  box-shadow: 0 12px 28px rgba(145, 90, 114, 0.45);
+  box-shadow: 0 12px 28px rgba(90, 145, 114, 0.45);
 }
 
 .btn-ghost {
@@ -288,7 +288,7 @@ nav {
 }
 
 .hero-card {
-  background: radial-gradient(circle at top left, #f1d5df 0, #f7f4f6 40%, #ffffff 100%);
+  background: radial-gradient(circle at top left, #E9F4D3 0, #FBFDF7 40%, #EBE0CE 100%);
   border-radius: 1.75rem;
   padding: 1.75rem 1.5rem;
   box-shadow: var(--shadow-soft);
