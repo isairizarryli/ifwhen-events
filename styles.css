@@ -4,6 +4,7 @@
   --primary: #91A885;
   --primary-dark: #61765F;
   --accent: #E9F4D3;
+  --gold: #FAD874;
   --text-main: #4A4A4A;
   --text-muted: #2D4C3A;
   --border-subtle: #E8EFDA;
@@ -57,9 +58,9 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(244, 247, 244, 0.95);
+  background: var(--primary);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(223, 236, 229, 0.9);
+  border-bottom: 1px solid var(--primary-dark);
 }
 
 .nav-inner {
@@ -81,7 +82,7 @@ header {
 .brand-script {
   font-family: "Allura", cursive;
   font-size: 1.5rem;
-  color: var(--primary-dark);
+  color: var(--bg);
   letter-spacing: 0.08em;
 }
 
@@ -89,7 +90,7 @@ header {
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  color: var(--text-muted);
+  color: var(--gold);
 }
 
 nav {
@@ -103,14 +104,14 @@ nav {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   font-weight: 600;
-  color: var(--text-muted);
+  color: var(--bg);
   padding-bottom: 0.25rem;
   border-bottom: 2px solid transparent;
 }
 
 .nav-link.active {
-  color: var(--primary-dark);
-  border-color: var(--primary);
+  color: var(--gold);
+  border-color: var(--bg);
 }
 
 .nav-cta {
