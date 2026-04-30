@@ -319,7 +319,7 @@ nav {
 
 .hero-card-text {
   font-size: 0.9rem;
-  color: var(--text-muted);
+  color: var(--bg);
 }
 
 @media (max-width: 840px) {
