@@ -307,7 +307,7 @@ nav {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  color: var(--text-muted);
+  color: var(--bg);
   margin-bottom: 0.5rem;
 }
 
