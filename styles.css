@@ -5,6 +5,7 @@
   --primary-dark: #61765F;
   --accent: #E9F4D3;
   --gold: #FAD874;
+  --soft-gold: #EDD482
   --text-main: #4A4A4A;
   --text-muted: #2D4C3A;
   --border-subtle: #E8EFDA;
@@ -280,12 +281,12 @@ nav {
   text-transform: uppercase;
   font-weight: 600;
   color: var(--text-muted);
-  background: var(--bg);
+  background: var(--gold);
 }
 
 .btn-ghost:hover {
   transform: translateY(-1px);
-  background: var(--gold);
+  background: var(--soft-gold);
   box-shadow: 0 12px 28px rgba(90, 145, 114, 0.45);
 }
 .hero-note {
@@ -294,7 +295,7 @@ nav {
 }
 
 .hero-card {
-  background: radial-gradient(circle at top left, #C8D4B2 0, #FBFDF7 40%, #C8D4B2 100%);
+  background: radial-gradient(circle at top left, #edd482 0, #FBFDF7 60%, #edd482 100%);
   border-radius: 1.75rem;
   padding: 1.75rem 1.5rem;
   box-shadow: var(--shadow-soft);
