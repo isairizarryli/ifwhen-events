@@ -90,7 +90,7 @@ header {
   font-size: 0.65rem;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  color: var(--gold);
+  color: var(--bg);
 }
 
 nav {
@@ -111,14 +111,14 @@ nav {
 
 .nav-link.active {
   color: var(--gold);
-  border-color: var(--bg);
+  border-color: var(--gold);
 }
 
 .nav-cta {
   padding: 0.45rem 1.3rem;
   border-radius: var(--radius-pill);
-  background: var(--primary);
-  color: #fff;
+  background: var(--bg);
+  color: var(--primary);
   font-size: 0.78rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
@@ -131,7 +131,7 @@ nav {
 
 .nav-cta:hover {
   transform: translateY(-1px);
-  background: var(--primary-dark);
+  background: var(--bg-alt);
   box-shadow: 0 9px 20px rgba(90, 145, 114, 0.45);
 }
 
