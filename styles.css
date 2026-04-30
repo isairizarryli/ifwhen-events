@@ -3,9 +3,10 @@
   --bg-alt: #EBE0CE;
   --primary: #91A885;
   --primary-dark: #61765F;
+  --soft-grn: #bccdb3;
   --accent: #E9F4D3;
   --gold: #FAD874;
-  --soft-gold: #EDD482
+  --soft-gold: ##f1e3b8;
   --text-main: #4A4A4A;
   --text-muted: #2D4C3A;
   --border-subtle: #E8EFDA;
@@ -281,7 +282,7 @@ nav {
   text-transform: uppercase;
   font-weight: 600;
   color: var(--text-muted);
-  background: var(--gold);
+  background: var(--bg);
 }
 
 .btn-ghost:hover {
@@ -295,7 +296,7 @@ nav {
 }
 
 .hero-card {
-  background: radial-gradient(circle at top left, #edd482 0, #FBFDF7 60%, #edd482 100%);
+  background: var(--soft-grn);
   border-radius: 1.75rem;
   padding: 1.75rem 1.5rem;
   box-shadow: var(--shadow-soft);
